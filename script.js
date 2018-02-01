@@ -5,9 +5,9 @@ function addKeyboardLayout(alphabet) {
     arr.push(alphabet);
     return arr;
 };
-console.log(addKeyboardLayout('qwertyuiop[]'));
-console.log(addKeyboardLayout('asdfghjkl;\''));
-console.log(addKeyboardLayout('zxcvbnm,./'));
+addKeyboardLayout('qwertyuiop[]');
+addKeyboardLayout('asdfghjkl;\'');
+addKeyboardLayout('zxcvbnm,./');
 
 function getRandCharInRow(row) {
     let min = 0;
