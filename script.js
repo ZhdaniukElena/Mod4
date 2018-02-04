@@ -15,7 +15,7 @@ function getRandCharInRow(row) {
     let i = Math.floor(Math.random() * (max - min)) + min;
     return arr[row][i];
 };
-console.log(getRandCharInRow(0));
+getRandCharInRow(0);
 
 function getRandCharInAlph() {
     let arrDublicated = arr.slice();
@@ -27,4 +27,4 @@ function getRandCharInAlph() {
     let i = Math.floor(Math.random() * (max - min)) + min;
     return arrReduced[i];
 };
-console.log(getRandCharInAlph());
+getRandCharInAlph();
